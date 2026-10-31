@@ -1,12 +1,73 @@
 {
   "schema_version": 1,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "https://github.com/Medal-Pan/research-ppt-skills",
   "skills": [
-    {"name": "nature-paper2ppt", "path": "skills/nature-paper2ppt", "license": "Apache-2.0", "upstream": "https://github.com/Paul-Jeo/nature-skills", "platform": "cross-platform", "kind": "paper-presentation"},
-    {"name": "image-to-editable-ppt", "path": "skills/image-to-editable-ppt", "license": "MIT", "upstream": null, "platform": "host-dependent", "kind": "image-reconstruction"},
-    {"name": "nature-image2ppt", "path": "skills/nature-image2ppt", "license": "MIT", "upstream": "https://github.com/Paul-Jeo/Image2PPT", "platform": "cross-platform", "kind": "object-reconstruction"},
-    {"name": "codex-ppt", "path": "skills/codex-ppt", "license": "MIT", "upstream": "https://github.com/ningzimu/codex-ppt-skill", "platform": "host-dependent", "kind": "image-based-presentation"},
-    {"name": "ace-sci-origin", "path": "skills/ace-sci-origin", "license": "MIT", "upstream": "https://github.com/hzsci/ace-sci-origin", "platform": "windows", "kind": "origin-ole-figures"}
+    {
+      "name": "nature-paper2ppt",
+      "path": "skills/nature-paper2ppt",
+      "license": "Apache-2.0",
+      "upstream": "https://github.com/Paul-Jeo/nature-skills",
+      "platform": "cross-platform",
+      "kind": "paper-presentation",
+      "title_zh": "论文汇报",
+      "summary_zh": "将论文和阅读笔记做成中文汇报与演讲备注",
+      "summary_en": "Create research presentations from papers and reading notes."
+    },
+    {
+      "name": "image-to-editable-ppt",
+      "path": "skills/image-to-editable-ppt",
+      "license": "MIT",
+      "upstream": null,
+      "platform": "host-dependent",
+      "kind": "image-reconstruction",
+      "title_zh": "图片复现可编辑PPT",
+      "summary_zh": "保留复杂视觉，重建主要文字和简单元素",
+      "summary_en": "Reconstruct major text and simple slide elements as editable PPTX objects."
+    },
+    {
+      "name": "nature-image2ppt",
+      "path": "skills/nature-image2ppt",
+      "license": "MIT",
+      "upstream": "https://github.com/Paul-Jeo/Image2PPT",
+      "platform": "cross-platform",
+      "kind": "object-reconstruction",
+      "title_zh": "精细图片重建",
+      "summary_zh": "按页还原对象并执行结构与渲染检查",
+      "summary_en": "Reconstruct image-only slides with object-level and rendered checks."
+    },
+    {
+      "name": "codex-ppt",
+      "path": "skills/codex-ppt",
+      "license": "MIT",
+      "upstream": "https://github.com/ningzimu/codex-ppt-skill",
+      "platform": "host-dependent",
+      "kind": "image-based-presentation",
+      "title_zh": "图片式演示稿",
+      "summary_zh": "从文章或提纲制作统一风格的图片式PPT",
+      "summary_en": "Generate visually consistent image-based presentations."
+    },
+    {
+      "name": "ace-sci-origin",
+      "path": "skills/ace-sci-origin",
+      "license": "MIT",
+      "upstream": "https://github.com/hzsci/ace-sci-origin",
+      "platform": "windows",
+      "kind": "origin-ole-figures",
+      "title_zh": "Origin科研图组",
+      "summary_zh": "以真实数据制作可编辑Origin工程与PPT OLE图组",
+      "summary_en": "Build editable Origin projects and PowerPoint OLE figure panels."
+    },
+    {
+      "name": "research-app-bridge",
+      "path": "skills/research-app-bridge",
+      "license": "MIT",
+      "upstream": null,
+      "platform": "mixed",
+      "kind": "local-research-software",
+      "title_zh": "科研软件协作",
+      "summary_zh": "跨Agent调用Origin、GraphPad Prism和Zotero本地工作流",
+      "summary_en": "Run local Origin, Prism and Zotero workflows through agent-neutral commands."
+    }
   ]
 }

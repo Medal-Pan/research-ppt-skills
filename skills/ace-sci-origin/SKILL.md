@@ -167,3 +167,9 @@ Do not report completion until:
 - PPT preview PNGs for slide 1 and slide 2 have been exported and inspected.
 - A reference-vs-Origin or reference-vs-PPT comparison exists when matching a Python/R reference.
 - Any remaining mismatch is stated plainly.
+
+
+<!-- Distribution update by Medal-Pan, 2026-10-31: add software and host requirements; retain upstream workflow. -->
+## 软件与 Agent 运行要求
+
+首次使用或切换宿主时，读取 [软件与 Agent 运行要求](references/software-and-agents.md)。

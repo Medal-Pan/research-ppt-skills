@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "profiles": [
+    {
+      "id": "codex",
+      "label": "Codex",
+      "mode": "local",
+      "home_parts": [
+        ".agents",
+        "skills"
+      ],
+      "project_parts": [
+        ".agents",
+        "skills"
+      ],
+      "source": "https://learn.chatgpt.com/docs/build-skills"
+    },
+    {
+      "id": "claude-code",
+      "label": "Claude Code",
+      "mode": "local",
+      "home_parts": [
+        ".claude",
+        "skills"
+      ],
+      "project_parts": [
+        ".claude",
+        "skills"
+      ],
+      "source": "https://code.claude.com/docs/en/skills"
+    },
+    {
+      "id": "deepseek-harness",
+      "label": "DeepSeek Harness",
+      "mode": "local",
+      "home_parts": [
+        ".dsh",
+        "skills"
+      ],
+      "project_parts": [
+        ".dsh",
+        "skills"
+      ],
+      "source": "https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.md"
+    },
+    {
+      "id": "workbuddy",
+      "label": "WorkBuddy",
+      "mode": "import",
+      "source": "https://open.workbuddy.cn/docs/skill"
+    },
+    {
+      "id": "doubao",
+      "label": "豆包对话引导版",
+      "mode": "chat",
+      "source": "https://www.doubao.com/download/desktop"
+    }
+  ]
+}

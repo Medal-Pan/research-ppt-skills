@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研软件协作"
+  short_description: "跨Agent调用Origin、GraphPad Prism和Zotero的本地工作流与命令入口"
+  default_prompt: "使用 $research-app-bridge 检查本机科研软件，并按任务调用 Origin、GraphPad Prism 或 Zotero，交付可核验的结果文件。"

@@ -5,6 +5,7 @@
 | 路径 | 来源 | 许可 | 发布处理 |
 | --- | --- | --- | --- |
 | `skills/image-to-editable-ppt` | 本次对话中按用户提供的混合重建要求整理 | MIT | 新编技能，包含调用入口 |
+| `skills/research-app-bridge` | 本合集新增，接口与命令依据原厂公开文档 | MIT | Agent 中立的本机应用调用入口与工作流；不包含商业软件本体 |
 | `skills/nature-paper2ppt` | [Paul-Jeo/nature-skills](https://github.com/Paul-Jeo/nature-skills/tree/main/skills/nature-paper2ppt) | Apache-2.0 | 使用本地版本，补入上游根许可证；共享术语文件打包到技能内部，改动文件已注明 |
 | `skills/nature-paper2ppt/references/terminology-ledger.md` | [nature-shared](https://github.com/Paul-Jeo/nature-skills/blob/main/skills/nature-shared/core/terminology-ledger.md) | Apache-2.0 | 随论文汇报技能分发，消除跨技能目录依赖 |
 | `skills/nature-image2ppt` | [Paul-Jeo/Image2PPT](https://github.com/Paul-Jeo/Image2PPT)，来源提交 `3bcedf41a277a3a4ae8024f6030437930c969d30`，见原 `manifest.yaml` | MIT | 保留原许可证及 Image2PPT contributors、ningzimu 署名，不改运行时 |
@@ -34,3 +35,10 @@
 - 为单独分发的目录补齐相应许可证、来源与必要依赖说明。
 - 新增合集文档、选择性安装工具和结构检查；没有改写第三方运行时算法。
 - 排除配置、凭据、缓存、本机实验文件及生成的 PPT/PDF/Origin 工程。
+
+## 0.2.0 更新
+
+- 添加按 Codex、Claude Code、DeepSeek Harness、WorkBuddy 和豆包对话引导版生成的适配包；非 Codex 版本不假定可用 Codex OAuth 或专属工具。
+- 给五个演示技能补充软件要求引用，改动文件保留分发更新说明；原许可证继续保留。
+- 新增科研软件命令桥与原厂下载指南；Zotero 入口只读，不直接修改资料库。
+- 工作方式图改为文字优先的浅色流程图，使用内置 imagegen 生成/编辑；没有复用第三方演示图片。

@@ -71,3 +71,9 @@ When a real PPTX has been generated, run `scripts/audit_pptx_quality.py` unless 
 - The dynamic layer keeps each invocation cheap: only the arc for this paper enters context up front; heavy design and QA material loads only when that step runs.
 - The router itself is short on purpose. Update fragments, not this file, when adding scope.
 - This structure mirrors `nature-writing`, `nature-polishing`, and `nature-reader` so shared content lives in `nature-shared/`.
+
+
+<!-- Distribution update by Medal-Pan, 2026-10-31: add software and host requirements; retain upstream workflow. -->
+## 软件与 Agent 运行要求
+
+首次使用或切换宿主时，读取 [软件与 Agent 运行要求](references/software-and-agents.md)。

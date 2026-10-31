@@ -44,3 +44,9 @@ description: "将幻灯片图片、截图、图片型 PPT 或 PDF 复现为可�
 2. 哪些区域为从原图裁切或提取的图片素材。
 3. 哪些文字因嵌入复杂视觉而保留为图片，以及原因。
 4. 如有视觉近似的数据、字体替代或尚未核验的内容，一并注明。
+
+
+<!-- Distribution update by Medal-Pan, 2026-10-31: add software and host requirements; retain upstream workflow. -->
+## 软件与 Agent 运行要求
+
+首次使用或切换宿主时，读取 [软件与 Agent 运行要求](references/software-and-agents.md)。

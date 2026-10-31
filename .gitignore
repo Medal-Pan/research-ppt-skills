@@ -23,6 +23,7 @@ Thumbs.db
 output/
 outputs/
 dist/
+agent-exports/
 *.pptx
 *.opju
 *.pdf

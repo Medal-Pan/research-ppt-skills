@@ -156,3 +156,9 @@ Subagents must not edit `outline.md`, `deck_spec.json`, other slide jobs, `origi
 ## Documentation and Updates
 
 For source, docs, install, config, and examples, see [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill).
+
+
+<!-- Distribution update by Medal-Pan, 2026-10-31: add software and host requirements; retain upstream workflow. -->
+## 软件与 Agent 运行要求
+
+首次使用或切换宿主时，读取 [软件与 Agent 运行要求](references/software-and-agents.md)。

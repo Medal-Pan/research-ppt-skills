@@ -11,6 +11,13 @@ A research presentation skill collection maintained by [Medal-Pan](https://githu
 | Image-only slides → finer object reconstruction | [nature-image2ppt](skills/nature-image2ppt/SKILL.md) | Object-level PPTX with page manifests and visual QA |
 | Article / outline → visually consistent image slides | [codex-ppt](skills/codex-ppt/SKILL.md) | Image-based PPTX with notes; slide artwork remains raster |
 | Scientific data → Origin figures in PowerPoint | [ace-sci-origin](skills/ace-sci-origin/SKILL.md) | Editable Origin project and PPT OLE objects; Windows required |
+| Agent-neutral research app workflows | [research-app-bridge](skills/research-app-bridge/SKILL.md) | Local Origin scripts, Prism exports, and read-only Zotero search/export |
+
+## Agent editions and software
+
+Choose [Codex](editions/codex/README.md), [Claude Code](editions/claude-code/README.md), [DeepSeek Harness](editions/deepseek-harness/README.md), [WorkBuddy](editions/workbuddy/README.md), or the [Doubao chat-guidance edition](editions/doubao/README.md). Download ZIPs from [Releases](https://github.com/Medal-Pan/research-ppt-skills/releases), or build them with `python scripts/build_editions.py`.
+
+See [official software downloads and requirements](docs/SOFTWARE.md), [agent capabilities](docs/AGENTS.md), and [Origin / Prism / Zotero workflows](docs/APP_WORKFLOWS.md). Chat-only environments are not advertised as local desktop automation.
 
 ## Install
 
@@ -21,7 +28,7 @@ python scripts/install_skills.py --skill image-to-editable-ppt --dry-run
 python scripts/install_skills.py --skill image-to-editable-ppt
 ```
 
-The standard-library installer copies selected skill directories only. It refuses to overwrite an existing installation. The default destination is `$CODEX_HOME/skills`, or `~/.codex/skills` if unset. Use `--dest` for another host; host compatibility has not been exhaustively tested.
+The standard-library installer adapts selected skill directories and refuses to overwrite existing installations. Select a host with `--agent`; Codex uses `~/.agents/skills`, Claude Code `~/.claude/skills`, and DeepSeek Harness `$DSH_HOME/skills` or `~/.dsh/skills`. Use `--dest` for a custom location. Host compatibility has not been exhaustively tested.
 
 Runtime dependencies are installed separately. See [installation](docs/INSTALL.md), the selected skill, and its requirements. `nature-paper2ppt` includes its shared terminology reference for standalone installation.
 

@@ -208,3 +208,9 @@ slide, checks speaker-note integrity, and writes `final/image2ppt_qa.json`.
 Return the final PPTX path, standard final validation, and
 `final/image2ppt_qa.json`. Report which complex visuals remain replaceable bitmap
 assets. Do not call the deck complete while any page/final gate is pending or failed.
+
+
+<!-- Distribution update by Medal-Pan, 2026-10-31: add software and host requirements; retain upstream workflow. -->
+## 软件与 Agent 运行要求
+
+首次使用或切换宿主时，读取 [软件与 Agent 运行要求](references/software-and-agents.md)。

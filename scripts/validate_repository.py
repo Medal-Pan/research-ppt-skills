@@ -69,7 +69,7 @@ def main() -> int:
     count = python_count = 0
     for path in root.rglob("*"):
         relative = path.relative_to(root)
-        if any(part in {".git", "__pycache__", ".venv", ".pytest_cache"} for part in relative.parts):
+        if any(part in {".git", "__pycache__", ".venv", ".pytest_cache", "dist", "agent-exports"} for part in relative.parts):
             continue
         if path.is_symlink():
             failures.append(f"Symlink in distribution: {relative}")
