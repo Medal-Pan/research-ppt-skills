@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "repository": "https://github.com/Medal-Pan/research-ppt-skills",
+  "skills": [
+    {"name": "nature-paper2ppt", "path": "skills/nature-paper2ppt", "license": "Apache-2.0", "upstream": "https://github.com/Paul-Jeo/nature-skills", "platform": "cross-platform", "kind": "paper-presentation"},
+    {"name": "image-to-editable-ppt", "path": "skills/image-to-editable-ppt", "license": "MIT", "upstream": null, "platform": "host-dependent", "kind": "image-reconstruction"},
+    {"name": "nature-image2ppt", "path": "skills/nature-image2ppt", "license": "MIT", "upstream": "https://github.com/Paul-Jeo/Image2PPT", "platform": "cross-platform", "kind": "object-reconstruction"},
+    {"name": "codex-ppt", "path": "skills/codex-ppt", "license": "MIT", "upstream": "https://github.com/ningzimu/codex-ppt-skill", "platform": "host-dependent", "kind": "image-based-presentation"},
+    {"name": "ace-sci-origin", "path": "skills/ace-sci-origin", "license": "MIT", "upstream": "https://github.com/hzsci/ace-sci-origin", "platform": "windows", "kind": "origin-ole-figures"}
+  ]
+}

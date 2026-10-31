@@ -1,0 +1,28 @@
+# Credentials and local project settings
+.env
+.env.*
+!.env.example
+config.yaml
+auth.json
+*.pem
+*.key
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated work belongs outside the distribution
+output/
+outputs/
+dist/
+*.pptx
+*.opju
+*.pdf

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">Research PPT Skills</title>
+  <desc id="desc">Research materials, visual reconstruction and scientific figures for presentation workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e34"/><stop offset="1" stop-color="#193c4f"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern>
+  </defs>
+  <rect width="1440" height="420" rx="20" fill="url(#bg)"/>
+  <rect width="1440" height="420" rx="20" fill="url(#grid)"/>
+  <path d="M64 74H116" stroke="#73dfbf" stroke-width="6"/>
+  <text x="64" y="116" fill="#90b5c1" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">MEDAL-PAN / RESEARCH WORKFLOWS</text>
+  <text x="60" y="195" fill="#f3f7fa" font-family="Arial,sans-serif" font-size="64" font-weight="700">Research PPT Skills</text>
+  <text x="64" y="242" fill="#c0d2df" font-family="Arial,sans-serif" font-size="24">Read the evidence. Build the story. Keep it editable.</text>
+  <g font-family="Arial,sans-serif" font-size="17">
+    <rect x="64" y="302" width="160" height="44" rx="8" fill="#284559"/><text x="88" y="330" fill="#edf5fa">Paper to slides</text>
+    <rect x="238" y="302" width="202" height="44" rx="8" fill="#284559"/><text x="260" y="330" fill="#edf5fa">Image reconstruction</text>
+    <rect x="454" y="302" width="196" height="44" rx="8" fill="#284559"/><text x="478" y="330" fill="#edf5fa">Scientific figures</text>
+  </g>
+  <g transform="translate(1000 75)">
+    <rect x="46" y="0" width="286" height="182" rx="12" fill="#233e52" stroke="#527c90"/>
+    <rect x="23" y="30" width="286" height="182" rx="12" fill="#1b3449" stroke="#628b9d"/>
+    <rect y="60" width="286" height="182" rx="12" fill="#f3f7fa"/>
+    <rect x="22" y="84" width="128" height="10" rx="5" fill="#193c4f"/>
+    <rect x="22" y="110" width="72" height="5" rx="2" fill="#a9bac6"/>
+    <rect x="22" y="122" width="88" height="5" rx="2" fill="#a9bac6"/>
+    <rect x="22" y="134" width="63" height="5" rx="2" fill="#a9bac6"/>
+    <path d="M138 209H259M138 209V122" fill="none" stroke="#193c4f" stroke-width="2"/>
+    <path d="M148 192L172 172L194 179L222 141L250 129" fill="none" stroke="#24977c" stroke-width="4"/>
+    <g fill="#24977c"><circle cx="148" cy="192" r="4"/><circle cx="172" cy="172" r="4"/><circle cx="194" cy="179" r="4"/><circle cx="222" cy="141" r="4"/><circle cx="250" cy="129" r="4"/></g>
+    <text x="1" y="283" fill="#90b5c1" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">PPTX / NOTES / VISUAL QA</text>
+  </g>
+</svg>

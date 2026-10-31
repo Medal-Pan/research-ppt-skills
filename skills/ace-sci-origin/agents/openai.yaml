@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ace Sci Origin"
+  short_description: "Publication-grade Origin and PPT scientific figures."
+  default_prompt: "Use ace-sci-origin to build an editable Origin project, an Origin OLE PowerPoint group figure, and validated previews from spreadsheet data."

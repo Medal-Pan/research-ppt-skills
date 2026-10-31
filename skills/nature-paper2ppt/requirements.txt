@@ -1,0 +1,4 @@
+# Packaging addition: minimum toolchain described in static/core/toolchain.md.
+PyMuPDF
+Pillow
+python-pptx

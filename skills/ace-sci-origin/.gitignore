@@ -1,0 +1,21 @@
+# Generated scientific-figure artifacts
+*.opju
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Runtime and local state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+

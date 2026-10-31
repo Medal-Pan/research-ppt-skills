@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片复现可编辑PPT"
+  short_description: "按原图复现可编辑PPT，复杂视觉保真，主要文字与简单元素原生可编辑"
+  default_prompt: "使用 $image-to-editable-ppt 将附件复现为 16:9 可编辑 PPTX，保留原图设计，提供预览、原图对照及保留为图片的区域说明。"
